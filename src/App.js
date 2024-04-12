@@ -11,10 +11,10 @@ function App() {
 			<h1 className='text-black mb-1'>Flex card</h1>
 			<h2 className='text-black mb-8'>Used for pre-tax purchases</h2>
 			<div className='relative w-full max-w-[392px] max-h-[272px] rounded-[20px] overflow-hidden'>
-				<img alt="card background" src={bg} className='w-full h-full' />
+				<img alt='card background' src={bg} className='w-full h-full' />
 				<div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col gap-3 justify-between'>
 					<div className='flex justify-between'>
-						<img alt="benePass logo" src={benePass} className='max-w-[50%]' />
+						<img alt='benePass logo' src={benePass} className='max-w-[50%]' />
 						{cardData.virtual && (
 							<div className=' bg-white text-black px-3 py-1 rounded-[40px] max-w-[50%] font-medium'>
 								{cardData.virtual}
@@ -45,7 +45,7 @@ function App() {
 					</div>
 					<div className='flex justify-between'>
 						<h3>ZIP {cardData.zip}</h3>
-						<img alt="visa card icon" src={visa} />
+						<img alt='visa card icon' src={visa} />
 					</div>
 				</div>
 			</div>
